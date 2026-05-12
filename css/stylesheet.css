@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     font-size: 16px;
 }
+
 :root {
 
     /*FARVER*/
@@ -105,7 +107,7 @@ p {
 }
 
 /*GRID*/
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
     gap: var(--grid-gap);
@@ -157,7 +159,17 @@ p {
 /*TABLET*/
 @media (min-width: 768px) and (max-width:1023px) {
 
+    :root {
+        --font-size-h1: 3rem;
+        --font-size-h2: 2rem;
+    }
 }
 
 /*DESKTOP*/
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+    :root {
+        --font-size-h1: 4rem;
+        --font-size-h2: 2.5rem;
+    }
+}
