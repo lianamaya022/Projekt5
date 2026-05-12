@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
 :root {
 
     /*FARVER*/
@@ -8,7 +14,7 @@
     --sektion-color-blue: #E8F1F8;
     --background-color: #FFFFFF;
     --hover-color-primary: #E9656C;
-    --hover-color-secondardy: #FFF0F1;
+    --hover-color-secondary: #FFF0F1;
 
     /*TYPOGRAFI*/
 
@@ -103,7 +109,7 @@ p {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
     gap: var(--grid-gap);
-    max-width: var(--container-max-width);
+    width: 100%;
     margin: 0 auto;
     padding-inline: var(--container-padding);
 }
@@ -144,12 +150,14 @@ p {
 
 /*secondary button outline hover*/
 .btn--secondary:hover {
-    background-color: var(--hover-color-secondardy);
+    background-color: var(--hover-color-secondary);
 }
 
 
 /*TABLET*/
-@media (min-width: 768px)and(max-width:1023px) {}
+@media (min-width: 768px) and (max-width:1023px) {
+
+}
 
 /*DESKTOP*/
 @media (min-width: 1024px) {}
