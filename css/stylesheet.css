@@ -7,7 +7,8 @@
     --sektion-color-grey: #DADADA;
     --sektion-color-blue: #E8F1F8;
     --background-color: #FFFFFF;
-    --hover-color: #E9656C;
+    --hover-color-primary: #E9656C;
+    --hover-color-secondardy: #FFF0F1;
 
     /*TYPOGRAFI*/
 
@@ -97,6 +98,17 @@ p {
     color: var(--text-color);
 }
 
+/*GRID*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
+    gap: var(--grid-gap);
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding-inline: var(--container-padding);
+}
+
+
 /*KNAPPER*/
 
 /* button*/
@@ -105,8 +117,6 @@ p {
     font-weight: var(--font-weight-regular);
     border-radius: var(--radius-l);
     padding: var(--spacing-m) var(--spacing-xl);
-    display: block;
-    margin: 0 auto;
     transition: 0.3s ease;
 
 }
@@ -120,7 +130,7 @@ p {
 
 /*primary button hover*/
 .btn--primary:hover {
-    background-color: var(--hover-color);
+    background-color: var(--hover-color-primary);
 }
 
 
@@ -133,14 +143,13 @@ p {
 }
 
 /*secondary button outline hover*/
-.btn--secondary {
-    background-color: #FFF0F1;
-
+.btn--secondary:hover {
+    background-color: var(--hover-color-secondardy);
 }
 
 
 /*TABLET*/
-@media (min-width: 768px)and(max-width:1023) {}
+@media (min-width: 768px)and(max-width:1023px) {}
 
 /*DESKTOP*/
-@media (min-width: 1024) {}
+@media (min-width: 1024px) {}
