@@ -122,7 +122,7 @@ p {
 /* button*/
 .btn {
     font-size: var(--font-size-cta);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-semibold);
     border-radius: var(--radius-l);
     padding: var(--spacing-m) var(--spacing-xl);
     transition: 0.3s ease;
