@@ -116,6 +116,13 @@ p {
     padding-inline: var(--container-padding);
 }
 
+/*SECTION*/
+.section{
+    background-color: var(--sektion-color-blue);
+    margin: var(--spacing-s);
+    border-radius: var(--radius-l);
+    min-height: 300px;
+}
 
 /*KNAPPER*/
 
