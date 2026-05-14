@@ -1,4 +1,4 @@
-/*Inpriration for time-line "https://www.youtube.com/watch?v=AIDiMA_C3sg"*/
+/*Inspiration af time-line "https://www.youtube.com/watch?v=AIDiMA_C3sg"*/
 
 * {
     box-sizing: border-box;
@@ -88,6 +88,7 @@ h1 {
     font-weight: var(--font-weight-semibold);
     line-height: var(--line-height-h1);
     color: var(--text-color);
+    text-align: center;
 }
 
 h2 {
@@ -125,7 +126,7 @@ p {
 .section {
     background-color: var(--sektion-color-blue);
     border-radius: var(--radius-l);
-    padding-block: var(--spacing-3xl);
+    padding-block: var(--spacing-m);
     margin: var(--spacing-s);
 }
 
