@@ -1,3 +1,5 @@
+/*Inpriration for time-line "https://www.youtube.com/watch?v=AIDiMA_C3sg"*/
+
 * {
     box-sizing: border-box;
 }
@@ -142,6 +144,16 @@ img {
     max-width: 100%;
     display: block;
 }
+
+/*TIMELINE*/
+.time-line{
+    margin:0 auto;
+    max-width: 750px;
+    padding: 25px;
+    color:var(--font-primary);
+}
+
+
 
 /*KNAPPER*/
 
