@@ -75,6 +75,7 @@ html {
 
 body {
     font-family: var(--font-primary);
+    margin: 0;
 }
 
 /* typografi*/
@@ -99,6 +100,8 @@ h3 {
     color: var(--text-color);
 }
 
+
+
 p {
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-regular);
@@ -119,10 +122,26 @@ p {
 /*SECTION*/
 .section{
     background-color: var(--sektion-color-blue);
-    margin: var(--spacing-s);
     border-radius: var(--radius-l);
-    min-height: 300px;
+    padding-block: var(--spacing-3xl);
 }
+.section h1 {
+    grid-column: 1 / -1;
+}
+
+
+.service-card {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-m);
+}
+img {
+    max-width: 100%;
+
+    display: block;
+}
+
 
 /*KNAPPER*/
 
