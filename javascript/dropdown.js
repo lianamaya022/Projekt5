@@ -1,3 +1,5 @@
+// Inspiret af 
+
 //krav hele pensum
 
 //JavaScript.

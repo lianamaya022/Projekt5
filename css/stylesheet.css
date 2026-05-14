@@ -71,6 +71,7 @@ html {
     --breakpoint-tablet: 1024px;
 }
 
+
 /* STYLING AF ELEMENTER */
 
 /* BODY */
@@ -116,7 +117,7 @@ p {
 .container {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
-    gap: var(--grid-gap);
+    column-gap: var(--grid-gap);
     width: 100%;
     margin: 0 auto;
     padding-inline: var(--container-padding);
@@ -134,9 +135,9 @@ p {
 .service-card {
     display: grid;
     grid-template-columns: 2.5rem 1fr;
-    gap: var(--spacing-l);
+    column-gap: var(--spacing-l);
     grid-column: 1/-1;
-    align-items: start;
+    align-items: stretch;
 }
 
 /*service card content*/
@@ -167,12 +168,11 @@ p {
 /*timeline line*/
 .timeline-line {
     width: 0.25rem;
-    flex: 1;
-    margin-top: var(--spacing-xs);
+    height: 100%;
     background-image: repeating-linear-gradient(
         to bottom,
         var(--primary-color) 0 1rem,
-        transparent 1rem 2rem
+        transparent 1rem 1.5rem
     );
 }
 
@@ -195,6 +195,8 @@ img {
     border-radius: var(--radius-l);
     padding: var(--spacing-m) var(--spacing-xl);
     transition: 0.3s ease;
+    width: fit-content;
+    white-space: nowrap;
 
 }
 
