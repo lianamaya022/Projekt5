@@ -76,6 +76,7 @@ html {
 body {
     font-family: var(--font-primary);
     margin: 0;
+    background-color: var(--background-color);
 }
 
 /* typografi*/
@@ -124,6 +125,7 @@ p {
     background-color: var(--sektion-color-blue);
     border-radius: var(--radius-l);
     padding-block: var(--spacing-3xl);
+    margin: var(--spacing-s);
 }
 .section h1 {
     grid-column: 1 / -1;
@@ -134,14 +136,12 @@ p {
     grid-column: 1 / -1;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-m);
+    gap: var(--spacing-s);
 }
 img {
     max-width: 100%;
-
     display: block;
 }
-
 
 /*KNAPPER*/
 
