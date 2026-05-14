@@ -104,8 +104,6 @@ h3 {
     color: var(--text-color);
 }
 
-
-
 p {
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-regular);
@@ -136,8 +134,8 @@ p {
     display: grid;
     grid-template-columns: 2.5rem 1fr;
     column-gap: var(--spacing-l);
-    grid-column: 1/-1;
-    align-items: stretch;
+    align-items: start;
+    grid-column: 1 / -1;
 }
 
 /*service card content*/
@@ -145,6 +143,10 @@ p {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-s);
+}
+/*service card img*/
+.service-card__content img {
+    margin-bottom: var(--spacing-2xl);
 }
 
 /*TIMELINE*/
@@ -197,7 +199,9 @@ img {
     transition: 0.3s ease;
     width: fit-content;
     white-space: nowrap;
-
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-block: var(--spacing-m);
 }
 
 /*primary button*/
