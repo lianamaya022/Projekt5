@@ -233,20 +233,25 @@ img {
 
 /* OM TEAMET */
 .om-teamet__container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     column-gap: var(--spacing-xl);
 }
 
 /* OM TEAMET IMAGE WRAPPER */
 .om-teamet__image-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 /* OM TEAMET IMAGE */
 .om-teamet__image {
-    width: 100%;
-    max-width: 450px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
 }
 
 /* OM TEAMET CONTENT */
@@ -256,6 +261,7 @@ img {
     gap: var(--spacing-s);
     text-align: left;
     width: 100%;
+    max-width: 600px;
 }
 
 
