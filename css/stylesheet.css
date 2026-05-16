@@ -262,7 +262,7 @@ img {
     gap: var(--spacing-s);
     text-align: left;
     width: 100%;
-    max-width: 600px;
+    max-width: var(--container-max-width);
     margin: 0 auto;
 }
 
