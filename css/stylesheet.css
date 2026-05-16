@@ -268,10 +268,9 @@ img {
 /* OM TEAMET */
 
 /* OM TEAMET CONTAINER */
-.om-teamet__container {
+.om-teamet .container {
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     gap: var(--spacing-xl);
 }
 
