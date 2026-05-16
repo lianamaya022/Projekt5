@@ -237,8 +237,8 @@ img {
 }
 
 .om-teamet .container {
-    max-width: var(--container-max-width);
-    gap: var(--spacing-xl);
+    grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
+    align-items: start;
 }
 
 .om-teamet__image-wrapper {
@@ -259,7 +259,7 @@ img {
     gap: var(--spacing-m);
 }
 
-
+/* Sarah - Prompt 7*/
 /*TABLET*/
 @media (min-width: 768px) {
     h1{
@@ -267,20 +267,32 @@ img {
     }
 
     .om-teamet .container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
         align-items: center;
     }
 
     .om-teamet__image-wrapper {
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
 
     .om-teamet__content {
-        grid-column: 2 / 3;
+        grid-column: 5 / 9;
     }
 }
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+    .om-teamet .container {
+        grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
+    }
+
+    .om-teamet__image-wrapper {
+        grid-column: 1 / 7;
+    }
+
+    .om-teamet__content {
+        grid-column: 7 / 13;
+    }
 
 }
