@@ -237,12 +237,12 @@ img {
 }
 
 .om-teamet .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: var(--container-max-width);
-    padding-inline: var(--spacing-m);
-    gap: var(--spacing-m);
+    gap: var(--spacing-xl);
+}
+
+.om-teamet__image-wrapper {
+    grid-column: 1 / -1;
 }
 
 /* OM TEAMET IMAGE */
@@ -253,10 +253,10 @@ img {
 
 /* OM TEAMET CONTENT */
 .om-teamet__content {
+    grid-column: 1 / -1;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    width: 100%;
+    gap: var(--spacing-m);
 }
 
 
@@ -265,49 +265,22 @@ img {
     h1{
         font-size: 2rem;
     }
-/* OM TEAMET */
 
-/* OM TEAMET CONTAINER */
-.om-teamet .container {
-    flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-xl);
-}
+    .om-teamet .container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 
-/* OM TEAMET IMAGE OG CONTENT */
-.om-teamet__image,
-.om-teamet__content {
-    width: 100%;
-}
+    .om-teamet__image-wrapper {
+        grid-column: 1 / 2;
+    }
 
-/* OM TEAMET CONTENT */
-.om-teamet__content {
-    text-align: left;
-}
-
+    .om-teamet__content {
+        grid-column: 2 / 3;
+    }
 }
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
-
-/* OM TEAMET */
-
-/* OM TEAMET CONTAINER */
-.om-teamet .container {
-    flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-xl);
-}
-
-/* OM TEAMET IMAGE OG CONTENT */
-.om-teamet__image,
-.om-teamet__content {
-    width: 100%;
-}
-
-/* OM TEAMET CONTENT */
-.om-teamet__content {
-    text-align: left;
-}
 
 }
