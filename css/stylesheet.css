@@ -259,6 +259,14 @@ img {
     gap: var(--spacing-m);
 }
 
+.om-teamet__title {
+    margin-bottom: var(--spacing-xs);
+}
+
+.om-teamet__text {
+    margin-top: 0;
+}
+
 /* Sarah - Prompt 7*/
 /*TABLET*/
 @media (min-width: 768px) {
