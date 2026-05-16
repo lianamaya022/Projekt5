@@ -231,6 +231,34 @@ img {
     background-color: var(--hover-color-secondary);
 }
 
+/* OM TEAMET */
+.om-teamet__container {
+    align-items: center;
+    column-gap: var(--spacing-xl);
+}
+
+/* OM TEAMET IMAGE WRAPPER */
+.om-teamet__image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* OM TEAMET IMAGE */
+.om-teamet__image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+/* OM TEAMET CONTENT */
+.om-teamet__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-s);
+    text-align: left;
+    width: 100%;
+}
+
 
 /*TABLET*/
 @media (min-width: 768px) and (max-width:1023px) {
