@@ -244,15 +244,13 @@ img {
     max-width: var(--container-max-width);
     margin: 0 auto;
     padding-inline: var(--spacing-m);
-    gap: var(--spacing-xl);
+    gap: var(--spacing-m);
 }
 
 /* OM TEAMET IMAGE */
 .om-teamet__image {
     width: 100%;
-    max-width: 600px;
     height: auto;
-    display: block;
 }
 
 /* OM TEAMET CONTENT */
@@ -261,7 +259,6 @@ img {
     flex-direction: column;
     text-align: left;
     width: 100%;
-    max-width: 600px;
 }
 
 
@@ -270,6 +267,27 @@ img {
     h1{
         font-size: 2rem;
     }
+/* OM TEAMET */
+
+/* OM TEAMET CONTAINER */
+.om-teamet__container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xl);
+}
+
+/* OM TEAMET IMAGE OG CONTENT */
+.om-teamet__image,
+.om-teamet__content {
+    width: 100%;
+}
+
+/* OM TEAMET CONTENT */
+.om-teamet__content {
+    text-align: left;
+}
+
 }
 
 /*DESKTOP*/
