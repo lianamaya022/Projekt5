@@ -238,6 +238,7 @@ img {
     align-items: center;
     text-align: center;
     column-gap: var(--spacing-xl);
+    padding-inline: var(--spacing-l);
 }
 
 /* OM TEAMET IMAGE WRAPPER */
@@ -262,6 +263,7 @@ img {
     text-align: left;
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
 }
 
 
