@@ -290,4 +290,24 @@ img {
 /*DESKTOP*/
 @media (min-width: 1024px) {
 
+/* OM TEAMET */
+
+/* OM TEAMET CONTAINER */
+.om-teamet .container {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xl);
+}
+
+/* OM TEAMET IMAGE OG CONTENT */
+.om-teamet__image,
+.om-teamet__content {
+    width: 100%;
+}
+
+/* OM TEAMET CONTENT */
+.om-teamet__content {
+    text-align: left;
+}
+
 }
