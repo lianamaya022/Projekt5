@@ -236,13 +236,11 @@ img {
     background-color: var(--background-color);
 }
 
-.om-teamet__container {
+.om-teamet .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     max-width: var(--container-max-width);
-    margin: 0 auto;
     padding-inline: var(--spacing-m);
     gap: var(--spacing-m);
 }
