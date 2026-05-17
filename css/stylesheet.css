@@ -335,6 +335,7 @@ img {
     }
 
     /**/
+    
      .service-card {
         display: grid;
         grid-template-columns: 1fr 5rem 1fr;
