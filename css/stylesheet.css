@@ -311,6 +311,13 @@ img {
     margin-bottom: var(--spacing-s);
 }
 
+/* Sarah - Prompt 19 */
+.carousel__inner {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding-inline: var(--container-padding);
+}
+
 .carousel__heading {
     margin-bottom: var(--spacing-m);
 }
