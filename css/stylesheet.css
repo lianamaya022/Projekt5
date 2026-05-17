@@ -279,6 +279,7 @@ img {
     background-color: var(--background-color);
 }
 
+/* Sarah - prompt 8, 19 og 11 */
 .om-teamet .container {
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
     align-items: start;
@@ -295,7 +296,7 @@ img {
     height: auto;
 }
 
-/* Sarah - Prompt 10 */
+/* Sarah - Prompt 11 */
 /* OM TEAMET CONTENT */
 .om-teamet__content {
     grid-column: 1 / -1;
@@ -305,7 +306,7 @@ img {
 }
 
 
-/* Sarah - Prompt 7*/
+/* Sarah - Prompt 7 */
 /*TABLET*/
 @media (min-width: 768px) {
     :root {
@@ -325,6 +326,7 @@ img {
         margin-bottom: 4rem;
     }
 
+    /* Sarah - Prompt 8 og 10 */
     .om-teamet .container {
         grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
         align-items: center;
@@ -364,6 +366,7 @@ img {
         margin-bottom: 4rem;
     }
 
+    /* Sarah - Prompt 8 og 10 */
     .om-teamet .container {
         grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
     }
