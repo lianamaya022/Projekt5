@@ -395,6 +395,144 @@ img {
   background-color: var(--primary-color);
 }
 
+/* FOOTER */
+.footer {
+    background-color: var(--background-color);
+    width: 100%;
+    margin-top: var(--spacing-3xl);
+}
+
+.kolonner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+/* GENEREL KOLONNE */
+.kolonne {
+    padding: var(--spacing-3xl) var(--container-padding);
+}
+
+/* KOLONNE 1 */
+
+.logo-kolonne {
+    background-color: var(--sektion-color-blue);
+}
+
+.logo {
+    width: 240px;
+    margin-bottom: var(--spacing-l);
+}
+
+/* LINKS */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-l);
+    margin-bottom: var(--spacing-l);
+}
+
+.links p {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-body);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* SOCIALE IKONER */
+.sociale-ikoner {
+    display: flex;
+    gap: var(--spacing-m);
+}
+
+.sociale-ikoner .icon {
+    width: 37px;
+    height: 37px;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon--facebook {
+    background-image: url("../Image/icons/facebook.svg");
+}
+
+.icon--instagram {
+    background-image: url("../Image/icons/instagram.svg");
+}
+/* KOLONNE 2 */
+
+.tider-kolonne h3,
+.kontakt-kolonne h3 {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-h3);
+    margin-bottom: var(--spacing-xl);
+}
+
+.tider {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tider td {
+    padding: var(--spacing-s) 0;
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    text-transform: uppercase;
+}
+
+.tider td:first-child {
+    text-align: left;
+    padding-right: var(--spacing-l);
+}
+
+.tider .tid {
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* KOLONNE 3 */
+.firmanavn {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-l);
+    margin-top: -2rem;
+    letter-spacing: 1px;
+}
+
+.kontakt {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--spacing-l);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-m);
+}
+
+.kontakt li {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    text-align: left;
+}
+
+.kontakt-roed {
+    color: var(--primary-color);
+}
+
+.certificeringer img {
+    height: 60px;
+}
 
 /* Sarah - Prompt 7 */
 /*TABLET*/
