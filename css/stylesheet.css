@@ -268,6 +268,10 @@ img {
         font-size: 2rem;
     }
 
+    .section {
+        margin: var(--spacing-l);
+    }
+
     .om-teamet .container {
         grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
         align-items: center;
@@ -280,38 +284,8 @@ img {
     .om-teamet__content {
         grid-column: 5 / 9;
     }
-}
 
-/*DESKTOP*/
-@media (min-width: 1024px) {
-
-    :root {
-        --container-padding: 5rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-        justify-self: center;
-        text-align: center;
-    }
-
-    .section h1 {
-        max-width: 45rem;
-    }
-
-    .om-teamet .container {
-        grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
-    }
-
-    .om-teamet__image-wrapper {
-        grid-column: 1 / 7;
-    }
-
-    .om-teamet__content {
-        grid-column: 7 / 13;
-    }
-
-    /**/
+        /**/
     .service-card {
         grid-template-columns: 1fr 5rem 1fr;
         align-items: center;
@@ -342,11 +316,88 @@ img {
     .service-card__content img {
         margin-bottom: 0;
         justify-self: center;
-        max-width: 22rem;
+        max-width: 16rem;
+    }
+}
+
+/*DESKTOP*/
+@media (min-width: 1024px) {
+
+    :root {
+        --container-padding: 5rem;
     }
 
+    h1 {
+        font-size: 2rem;
+        justify-self: center;
+        text-align: center;
+    }
 
+    .section {
+        margin: var(--spacing-l);
+    }
 
+    .section h1 {
+        max-width: 45rem;
+        margin-inline: auto;
+        margin-bottom: 4rem;
+    }
 
+    .om-teamet .container {
+        grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
+    }
 
-}
+    .om-teamet__image-wrapper {
+        grid-column: 1 / 7;
+    }
+
+    .om-teamet__content {
+        grid-column: 7 / 13;
+    }
+
+    /**/
+     .service-card {
+        display: grid;
+        grid-template-columns: 1fr 5rem 1fr;
+        align-items: center;
+        column-gap: 2rem;
+    }
+
+    .timeline {
+        grid-column: 2;
+        justify-items: center;
+    }
+
+    .timeline-line {
+    width: 0.25rem;
+    height: 26rem;
+
+    margin-bottom: -18rem;
+
+    background-image: repeating-linear-gradient(
+        to bottom,
+        var(--primary-color) 0 1rem,
+        transparent 1rem 1.5rem
+    );
+    }
+    .service-card__content {
+   display: contents;
+    }
+
+    .service-card__content img {
+        grid-column: 1;
+
+        justify-self: end;
+        max-width: 22rem;
+        max-height: 18rem;
+        margin-bottom: 0;
+        justify-self: center;
+    }
+        .service-card__text {
+        grid-column: 3;
+
+        max-width: 28rem;
+        text-align: center;
+        justify-self: center;
+    }
+    }
