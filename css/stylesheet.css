@@ -309,9 +309,7 @@ img {
 /* Sarah - Prompt 7 */
 /*TABLET*/
 @media (min-width: 768px) {
-    :root {
-        --container-padding: 5rem;
-    }
+
 
     h1 {
         font-size: 2rem;
@@ -346,9 +344,7 @@ img {
 /*DESKTOP*/
 @media (min-width: 1024px) {
 
-    :root {
-        --container-padding: 5rem;
-    }
+
 
     h1 {
         font-size: 2rem;
