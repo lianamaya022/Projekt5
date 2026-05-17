@@ -283,7 +283,7 @@ img {
 .om-teamet .container {
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
     align-items: start;
-    gap: var(--spacing-l)
+    gap: var(--spacing-l);
 }
 
 .om-teamet__image-wrapper {
@@ -303,6 +303,83 @@ img {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-s);
+}
+
+
+/* CAROUSEL MED ANMELDELSER */
+.carousel {
+    background-color: var(--sektion-color-grey);
+    border-radius: var(--radius-l);
+    margin-bottom: var(--spacing-s);
+    overflow: hidden;
+}
+
+.carousel__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-m);
+}
+
+.carousel__viewport {
+    overflow: hidden;
+    width: 100%;
+    max-width: 80%;
+}
+
+.carousel__track {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.carousel__item {
+    min-width: 100%;
+    padding: var(--spacing-l);
+    border-radius: var(--radius-l);
+    text-align: center;
+}
+
+.carousel__subtitle {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-semibold);
+}
+
+.carousel__title {
+    margin-bottom: var (--spacing-s);
+}
+
+.carousel__text {
+  margin-bottom: var(--spacing-m);
+}
+
+.carousel__name {
+  font-weight: var(--font-weight-regular);
+}
+
+.carousel__btn {
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-s);
+  margin-top: var(--spacing-m);
+}
+
+.carousel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--sektion-color-grey);
+}
+
+.carousel__dot--active {
+  background-color: var(--primary-color);
 }
 
 
