@@ -279,7 +279,7 @@ img {
     background-color: var(--background-color);
 }
 
-/* Sarah - prompt 8, 19 og 11 */
+/* Sarah - prompt 8, 10 og 11 */
 .om-teamet .container {
     grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
     align-items: start;
