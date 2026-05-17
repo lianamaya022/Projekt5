@@ -308,10 +308,11 @@ img {
 
 /* CAROUSEL MED ANMELDELSER */
 .carousel {
-    background-color: var(--sektion-color-grey);
-    border-radius: var(--radius-l);
     margin-bottom: var(--spacing-s);
-    overflow: hidden;
+}
+
+.carousel__heading {
+    margin-bottom: var(--spacing-m);
 }
 
 .carousel__wrapper {
@@ -319,6 +320,10 @@ img {
     align-items: center;
     justify-content: center;
     gap: var(--spacing-m);
+    background-color: var(--sektion-color-grey);
+    border-radius: var(--radius-l);
+    overflow: hidden;
+    padding: var(--spacing-xl);
 }
 
 .carousel__viewport {
@@ -345,7 +350,7 @@ img {
 }
 
 .carousel__title {
-    margin-bottom: var (--spacing-s);
+    margin-bottom: var(--spacing-s);
 }
 
 .carousel__text {
