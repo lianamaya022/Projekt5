@@ -292,6 +292,10 @@ img {
         text-align: center;
     }
 
+    .section h1 {
+    max-width: 45rem;
+}
+
     .om-teamet .container {
         grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
     }
