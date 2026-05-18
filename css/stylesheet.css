@@ -112,6 +112,34 @@ p {
     color: var(--text-color);
 }
 
+/*HEADER*/
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    background-color: var(--background-color);
+    padding: var(--spacing-m) var(--container-padding);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.site-header__logo-link {
+    display: inline-block;
+}
+
+.site-header__logo {
+    width: 184px;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*GRID*/
 .container {
     display: grid;
